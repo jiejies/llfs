@@ -13,7 +13,7 @@ if (CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR)
 #    set(LLVM_DIR "" CACHE PATH "path to llvm cmake dir")
     find_package(LLVM REQUIRED HINTS "${LLVM_CMAKE_PATH}")
     list(APPEND CMAKE_MODULE_PATH ${LLVM_DIR})
-    include(ChooseMSVCCRT)
+    # include(ChooseMSVCCRT)
 
     include(AddLLVM)
     include(HandleLLVMOptions)

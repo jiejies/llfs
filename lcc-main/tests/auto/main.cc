@@ -1,11 +1,8 @@
 /***********************************
  * File:     main.cc
  *
- * Author:   caipeng
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2023/2/22
  *
  * Sign:     enjoy life
  ***********************************/

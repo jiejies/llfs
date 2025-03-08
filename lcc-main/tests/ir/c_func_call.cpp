@@ -1,11 +1,8 @@
 /***********************************
 * File:     c_func_call.cpp
 *
-* Author:   caipeng
 *
-* Email:    iiicp@outlook.com
 *
-* Date:     2022/9/25
 *
 * Sign:     不管几岁，快乐万岁
 ***********************************/

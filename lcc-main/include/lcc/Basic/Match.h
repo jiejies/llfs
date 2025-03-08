@@ -1,11 +1,8 @@
 /***********************************
  * File:     Match.h
  *
- * Author:   caipeng
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2023/4/26
  *
  * Sign:     enjoy life
  ***********************************/

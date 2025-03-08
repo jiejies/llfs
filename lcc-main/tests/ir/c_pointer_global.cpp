@@ -1,11 +1,8 @@
 /***********************************
 * File:     c_pointer_global.cpp
 *
-* Author:   caipeng
 *
-* Email:    iiicp@outlook.com
 *
-* Date:     2022/9/24
 *
 * Sign:     不管几岁，快乐万岁
 ***********************************/

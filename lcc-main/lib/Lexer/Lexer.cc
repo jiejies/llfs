@@ -1,11 +1,8 @@
 /***********************************
  * File:     Lexer.cc
  *
- * Author:   蔡鹏
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2022/10/11
  ***********************************/
 
 #include "lcc/Lexer/Lexer.h"

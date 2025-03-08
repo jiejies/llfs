@@ -1,11 +1,8 @@
 /***********************************
  * File:     use_sourcemgr.cc
  *
- * Author:   caipeng
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2023/2/15
  *
  * Sign:     enjoy life
  ***********************************/

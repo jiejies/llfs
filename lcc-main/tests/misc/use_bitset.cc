@@ -1,11 +1,8 @@
 /***********************************
  * File:     use_bitset.cc
  *
- * Author:   caipeng
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2023/2/19
  *
  * Sign:     enjoy life
  ***********************************/

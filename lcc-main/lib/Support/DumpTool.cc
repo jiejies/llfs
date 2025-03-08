@@ -1,11 +1,8 @@
 /***********************************
  * File:     DumpTool.cc
  *
- * Author:   caipeng
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2023/2/5
  *
  * Sign:     enjoy life
  ***********************************/

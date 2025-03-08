@@ -1,11 +1,8 @@
 /***********************************
 * File:     use_regex.cpp
 *
-* Author:   caipeng
 *
-* Email:    iiicp@outlook.com
 *
-* Date:     2022/10/2
 *
 * Sign:     不管几岁，快乐万岁
 ***********************************/

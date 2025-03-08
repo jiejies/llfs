@@ -1,14 +1,4 @@
-/***********************************
- * File:     Syntax.h
- *
- * Author:   caipeng
- *
- * Email:    iiicp@outlook.com
- *
- * Date:     2022/10/13
- *
- * Sign:     enjoy life
- ***********************************/
+
 #ifndef LCC_SYNTAX_H
 #define LCC_SYNTAX_H
 #include "lcc/Basic/Box.h"

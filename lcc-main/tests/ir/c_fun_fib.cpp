@@ -1,11 +1,8 @@
 /***********************************
 * File:     c_fun_fib.cpp
 *
-* Author:   caipeng
 *
-* Email:    iiicp@outlook.com
 *
-* Date:     2022/9/29
 *
 * Sign:     不管几岁，快乐万岁
 ***********************************/

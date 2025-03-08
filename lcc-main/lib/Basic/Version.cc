@@ -1,11 +1,8 @@
 /***********************************
  * File:     Version.cc
  *
- * Author:   caipeng
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2023/2/4
  *
  * Sign:     enjoy life
  ***********************************/

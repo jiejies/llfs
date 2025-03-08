@@ -10,11 +10,11 @@ ISO C 99 Doc link (pdf file): [C99](https://www.open-std.org/jtc1/sc22/wg14/www/
 
 |  Module     | Status     |     
 |  ----       |------------|   
-| Preprocess  | working... |   
-| Lexer       | 100%       |      
-| Parser      | 100%       |       
-| Semantics   | 5%         |       
-| CodeGen     | working... |    
+| Preprocess  | 1          |   
+| Lexer       | 1          |      
+| Parser      | 1          |       
+| Semantics   | 0          |       
+| CodeGen     | 0          |    
 
 ## Test Status:
 
@@ -36,15 +36,8 @@ or reference: https://brew.idayer.com/
 
 2, brew install llvm
 
-Linux:
-----------------------
 1, sudo apt-get update
 2, sudo apt-get -y install llvm-12
-
-Windows:
-----------------------
-reference:  https://blog.csdn.net/kingfox/article/details/117450533
-```
 
 二：Build LLVM manually
 

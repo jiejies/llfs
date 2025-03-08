@@ -1,11 +1,8 @@
 /***********************************
  * File:     Diagnostic.cc
  *
- * Author:   蔡鹏
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2023/2/16
  ***********************************/
 
 #include "lcc/Basic/Diagnostic.h"

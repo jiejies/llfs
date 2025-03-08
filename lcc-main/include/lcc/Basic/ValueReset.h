@@ -1,11 +1,8 @@
 /***********************************
  * File:     ValueReset.h
  *
- * Author:   caipeng
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2023/4/24
  *
  * Sign:     enjoy life
  ***********************************/

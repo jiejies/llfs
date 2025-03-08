@@ -1,11 +1,8 @@
 /***********************************
  * File:     use_share_unique.cc
  *
- * Author:   caipeng
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2022/11/6
  *
  * Sign:     enjoy life
  ***********************************/

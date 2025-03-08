@@ -1,11 +1,8 @@
 /***********************************
  * File:     Parser.h
  *
- * Author:   蔡鹏
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2022/10/17
  ***********************************/
 
 #ifndef LCC_PARSER_H

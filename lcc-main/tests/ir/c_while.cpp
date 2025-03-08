@@ -1,11 +1,8 @@
 /***********************************
  * File:     c_while.cpp
  *
- * Author:   caipeng
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2022/10/23
  *
  * Sign:     enjoy life
  ***********************************/

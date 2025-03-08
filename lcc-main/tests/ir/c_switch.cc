@@ -1,11 +1,8 @@
 /***********************************
  * File:     c_switch.cc
  *
- * Author:   蔡鹏
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2023/2/23
  ***********************************/
 #include "llvm/IR/LLVMContext.h"
 #include "llvm/IR/Module.h"

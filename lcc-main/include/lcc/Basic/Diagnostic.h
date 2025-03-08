@@ -1,11 +1,8 @@
 /***********************************
  * File:     Diagnostic.h
  *
- * Author:   蔡鹏
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2023/2/16
  ***********************************/
 
 #ifndef LCC_DIAGNOSTIC_H

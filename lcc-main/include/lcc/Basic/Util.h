@@ -1,11 +1,8 @@
 /***********************************
  * File:     Utilities.h
  *
- * Author:   caipeng
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2023/1/14
  *
  * Sign:     enjoy life
  ***********************************/

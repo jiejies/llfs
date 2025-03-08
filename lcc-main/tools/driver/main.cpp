@@ -17,7 +17,7 @@
 #include "llvm/Support/TargetSelect.h"
 #include "llvm/Support/Timer.h"
 #include "llvm/Support/WithColor.h"
-#include "llvm/Transforms/IPO/PassManagerBuilder.h"
+#include "llvm/Passes/PassBuilder.h"
 #include <filesystem>
 #include <llvm/Support/FileSystem.h>
 #include <optional>
@@ -194,10 +194,9 @@ bool compileCFile(Action action, std::filesystem::path sourceFile) {
         *timer);
     compileTimeRegion.emplace(*compileTimer);
   }
-  llvm::PassManagerBuilder builder;
-//  targetMachine->adjustPassManager(builder);
+  
   llvm::legacy::PassManager pass;
-  builder.populateModulePassManager(pass);
+  
   if (EmitLLVM) {
     if (action == Action::AssemblyOutput) {
       pass.add(llvm::createPrintModulePass(os));
@@ -208,8 +207,8 @@ bool compileCFile(Action action, std::filesystem::path sourceFile) {
     if (targetMachine->addPassesToEmitFile(
             pass, os, nullptr,
             action == Action::AssemblyOutput
-                ? llvm::CodeGenFileType::CGFT_AssemblyFile
-                : llvm::CodeGenFileType::CGFT_ObjectFile)) {
+                ? llvm::CodeGenFileType::AssemblyFile
+                : llvm::CodeGenFileType::ObjectFile)) {
       return false;
     }
   }

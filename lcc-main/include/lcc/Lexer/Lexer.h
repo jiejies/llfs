@@ -1,11 +1,8 @@
 /***********************************
  * File:     Lexer.h
  *
- * Author:   蔡鹏
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2022/10/11
  ***********************************/
 
 #ifndef LCC_LEXER_H

@@ -1,11 +1,8 @@
 /***********************************
  * File:     TokenKinds.cc
  *
- * Author:   caipeng
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2022/11/13
  *
  * Sign:     enjoy life
  ***********************************/

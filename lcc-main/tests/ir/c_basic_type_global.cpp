@@ -1,11 +1,8 @@
 /***********************************
 * File:     c_integer_type.cpp
 *
-* Author:   caipeng
 *
-* Email:    iiicp@outlook.com
 *
-* Date:     2022/9/23
 *
 * Sign:     不管几岁，快乐万岁
 ***********************************/

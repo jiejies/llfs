@@ -1,11 +1,8 @@
 /***********************************
  * File:     Box.h
  *
- * Author:   caipeng
  *
- * Email:    iiicp@outlook.com
  *
- * Date:     2023/4/22
  *
  * Sign:     enjoy life
  ***********************************/
