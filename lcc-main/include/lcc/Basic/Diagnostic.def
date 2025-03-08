@@ -1,0 +1,44 @@
+#ifndef DIAG
+#define DIAG(ID, Level, Msg)
+#endif
+/// lex
+DIAG(err_lex_illegal_char, Error, "illegal char")
+DIAG(err_lex_illegal_newline_in_after_include, Error, "illegal newline in after include")
+DIAG(err_lex_illegal_token_in_c, Error, "illegal token kind in c token")
+DIAG(err_lex_expected_digits_after_exponent, Error, "expected digits after exponent")
+DIAG(err_lex_binary_floating, Error, "binary floating point must contain exponent")
+DIAG(err_lex_invalid_octal_character, Error, "invalid octal character")
+DIAG(err_lex_invalid_literal_suffix, Error,"invalid literal suffix")
+DIAG(err_lex_invalid_string_literal, Error,"invalid string literal")
+DIAG(err_lex_invalid_char_literal, Error,"invalid char literal")
+DIAG(err_lex_empty_char_literal, Error, "empty char literal")
+DIAG(err_lex_invalid_escaped_char, Error, "invalid escaped char")
+DIAG(warn_lex_multi_character, Warning, "multi character constant")
+DIAG(err_lex_at_least_one_hexadecimal_digit_required, Error, "error at least one hexadecimal digit required")
+DIAG(err_lex_at_least_one_oct_digit_required, Error, "error at least one oct digit required")
+DIAG(err_lex_unclosed_char, Error, "unclosed char literal")
+DIAG(err_lex_unclosed_string, Error, "unclosed string literal")
+DIAG(err_lex_unclosed_block_comment, Error, "unclosed block comment")
+DIAG(err_lex_unclosed_after_include, Error, "unclosed after include")
+DIAG(err_lex_implicit_newline_in_char, Error, "implicit newline in char literal")
+DIAG(err_lex_implicit_newline_in_string, Error, "implicit newline in string literal")
+
+/// parser
+DIAG(err_parse_skip_to_first_external_declaration, Error, "the beginning of external declaration")
+DIAG(err_parse_skip_to_first_struct_declaration, Error, "the start of struct declaration or }")
+DIAG(err_parse_expect_n, Error, "expect {0}")
+DIAG(err_parse_expect_n_after, Error, "expect {0} after this")
+DIAG(err_parse_struct_declaration_appear_storage_class, Error, "struct/union member should not have storage class")
+DIAG(err_parse_expect_type_specifier_or_qualifier, Error, "expect type specifier or qualifier")
+DIAG(err_parse_expect_storage_class_or_type_specifier_or_qualifier, Error, "expect storage class or type specifier or qualifier")
+DIAG(err_parse_type_name_appear_storage_class, Error, "type name should not have storage class")
+DIAG(err_parse_skip_to_first_statement_or_first_declaration, Error, "the beginning of a statement or a declaration")
+DIAG(err_parse_accidently_add_semi, Error, "maybe you accidently add the ;")
+DIAG(err_parse_func_param_declaration_miss_name, Error, "miss param name")
+
+/// semantics
+DIAG(err_sema_only_static_or_extern_allowed_in_function_definition, Error, "only static or extern allowed in function definition")
+DIAG(err_sema_at_least_one_type_specifier_required, Error, "at least one type specifier required")
+DIAG(err_sema_expected_no_further_type_specifiers_after, Error, "expected no further type specifiers after {0}")
+DIAG(err_sema_cannot_combine_n_with_n, Error, "cannot combine {0} with {1}")
+#undef DIAG
